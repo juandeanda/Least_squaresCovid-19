@@ -160,12 +160,12 @@ public class reflexion {
                          dMatrizR = cMatriz.mEvaluRecu(datos, dmÂ);
                          dErr = cMatriz.mError(datos, dMatrizR, grado);
                          this.dError = dErr;
-                         for (int j = 0; j < dMatrizR.length; j++) {
-                             for (int k = 0; k < dMatrizR[0].length; k++) {
-                                 System.out.print(dMatrizR[j][k]+" ");
-                             }
-                               System.out.println("");
-                          }
+                         //for (int j = 0; j < dMatrizR.length; j++) {
+                             //for (int k = 0; k < dMatrizR[0].length; k++) {
+                                 //System.out.print(dMatrizR[j][k]+" ");
+                             //}
+                               //System.out.println("");
+                          //}
                          //System.out.println("error="+dErr);
                          //objGrafica = new Graficar(datos, R);
                          //objGrafica = new Graficar(datos, dMatrizR);
